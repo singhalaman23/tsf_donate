@@ -30,10 +30,26 @@ color:rgb(93, 150, 242);
 font-size: 50vm;
 text-align: center;
 }
-
+.button2{
+  position: absolute;
+  top: 100%;
+  left: 50%;
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+}
 @media screen and (max-width: 600px) {
     h1 {
       font-size: 30px;
+    }
+    .button2{
+      position: absolute;
+    top: 90%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    }
+    h4{
+      top: 65%;
     }
   }
 
@@ -42,13 +58,8 @@ text-align: center;
     h4 {
       font-size: 25px;
     }
+
   }
-.button2{
-    position: absolute;
-    top: 100%;
-    left: 50%;
-    -ms-transform: translate(-50%, -50%);
-    transform: translate(-50%, -50%);
-}
+
 
   
